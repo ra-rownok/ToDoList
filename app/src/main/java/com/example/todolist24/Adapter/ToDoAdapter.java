@@ -1,6 +1,5 @@
-package com.example.todolist.Adapter;
+package com.example.todolist24.Adapter;
 
-import android.content.Context;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -12,10 +11,11 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.todolist.AddNewTask;
-import com.example.todolist.MainActivity;
-import com.example.todolist.Model.ToDoModel;
-import com.example.todolist.R;
+import com.example.todolist24.AddNewTask;
+import com.example.todolist24.MainActivity;
+import com.example.todolist24.Model.ToDoModel;
+
+import com.example.todolist24.R;
 import com.google.firebase.firestore.FirebaseFirestore;
 
 import java.util.List;
@@ -45,7 +45,7 @@ public class ToDoAdapter extends RecyclerView.Adapter<ToDoAdapter.MyViewHolder> 
         notifyItemRemoved(position);
     }
 
-    public Context getContext() {
+    public MainActivity getContext() {
         return activity;
     }
 

@@ -1,4 +1,4 @@
-package com.example.todolist;
+package com.example.todolist24;
 
 import android.app.Activity;
 import android.app.DatePickerDialog;
@@ -20,6 +20,7 @@ import android.widget.Toast;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
+import com.example.todolist24.R;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.Task;

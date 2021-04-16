@@ -1,10 +1,12 @@
-package com.example.todolist;
+package com.example.todolist24;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
+
+import com.example.todolist24.R;
 
 public class SplashActivity extends AppCompatActivity {
 

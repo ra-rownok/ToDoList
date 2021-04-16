@@ -1,4 +1,4 @@
-package com.example.todolist.Model;
+package com.example.todolist24.Model;
 
 public class ToDoModel extends TaskId {
     private String task, due;
@@ -15,4 +15,5 @@ public class ToDoModel extends TaskId {
     public int getStatus() {
         return status;
     }
+
 }

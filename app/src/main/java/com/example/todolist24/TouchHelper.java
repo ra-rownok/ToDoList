@@ -1,7 +1,6 @@
-package com.example.todolist;
+package com.example.todolist24;
 
 import android.app.AlertDialog;
-import android.content.Context;
 import android.content.DialogInterface;
 import android.graphics.Canvas;
 import android.graphics.Color;
@@ -11,7 +10,8 @@ import androidx.core.content.ContextCompat;
 import androidx.recyclerview.widget.ItemTouchHelper;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.todolist.Adapter.ToDoAdapter;
+import com.example.todolist24.Adapter.ToDoAdapter;
+import com.example.todolist24.R;
 
 import it.xabaras.android.recyclerview.swipedecorator.RecyclerViewSwipeDecorator;
 

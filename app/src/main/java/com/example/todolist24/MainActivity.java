@@ -1,4 +1,4 @@
-package com.example.todolist;
+package com.example.todolist24;
 
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
@@ -10,8 +10,9 @@ import android.content.DialogInterface;
 import android.os.Bundle;
 import android.view.View;
 
-import com.example.todolist.Adapter.ToDoAdapter;
-import com.example.todolist.Model.ToDoModel;
+import com.example.todolist24.Adapter.ToDoAdapter;
+import com.example.todolist24.Model.ToDoModel;
+import com.example.todolist24.R;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.firebase.firestore.DocumentChange;
 import com.google.firebase.firestore.EventListener;
@@ -22,10 +23,9 @@ import com.google.firebase.firestore.Query;
 import com.google.firebase.firestore.QuerySnapshot;
 
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.List;
 
-public class MainActivity extends AppCompatActivity implements OnDialogCloseListener{
+public class MainActivity extends AppCompatActivity implements com.example.todolist24.OnDialogCloseListener {
 
     private RecyclerView recyclerView;
     private FloatingActionButton mFab;
